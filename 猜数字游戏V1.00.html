@@ -25,7 +25,7 @@
   <body>
     <h1>猜数字游戏</h1>
 
-    <p>我刚才随机选定了一个1000以内的自然数。看你能否在 10 次以内猜中它。每次我都会告诉你所猜的结果是高了还是低了。</p>
+    <p>我刚才随机选定了一个200以内的自然数。看你能否在 10 次以内猜中它。每次我都会告诉你所猜的结果是高了还是低了。</p>
 
     <div class="form">
       <label for="guessField">请猜数: </label>
@@ -42,7 +42,7 @@
 
     <script>
       
-      let randomNumber = Math.floor(Math.random()*1000)+1;
+      let randomNumber = Math.floor(Math.random()*200)+1;
       
       const guesses = document.querySelector('.guesses');
       const lastResult = document.querySelector('.lastResult');
